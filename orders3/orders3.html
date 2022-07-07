@@ -1,0 +1,94 @@
+<link rel="stylesheet" type="text/css" href="orders3.css" />
+<div class="orders">
+    <div class="first-part">
+        <div class="order-header-text">
+            Список заказов
+        </div>
+        <div>
+            <table class="orders-table">
+                <tr class="header">
+                    <th class="header-element-num">№</th>
+                    <th class="header-element">Gl №</th>
+                    <th class="header-element">Время</th>
+                    <th class="header-element">Статус</th>
+                    <th class="header-element">Тип</th>
+                    <th class="header-element">Источник</th>
+                    <th class="header-element">Инфо</th>
+                </tr>
+                <tr class="body">
+                    <td class="body-element-num">001</td>
+                    <td class="body-element">89913243</td>
+                    <td class="body-element">10:52</td>
+                    <td class="body-element">Готовится</td>
+                    <td class="body-element">Зал</td>
+                    <td class="body-element">Касса</td>
+                    <td class="body-element">
+                        <img class="img-body-element" src="../images/time.svg" alt="time"/>
+                        <img class="img-body-element" src="../images/message.svg" alt="message"/>
+                    </td>
+                </tr>
+            </table>
+        </div>
+        <div class="pagination">
+            <div>
+                <button class="btn-page"><</button>
+                <button class="btn-page">></button>
+            </div>
+            <div class="page-index">10/49</div>
+        </div>
+    </div>
+    <div class="second-part">
+        <div style="display: flex; width: 100%; justify-content: space-between;">
+            <button class="btn-helpers">
+                <img src="../images/refresh.svg"/>
+            </button>
+            <button class="btn-helpers">
+                <img src="../images/dots.svg"/>
+            </button>
+            <button class="btn-helpers">
+                <img src="../images/close.svg"/>
+            </button>
+        </div>
+        <div class="parametr">
+            Параметры
+        </div>
+        <table class="table-parametr">
+            <tr class="table-parametr-body">
+                <td class="parametr-table-text-1">Отменить</td>
+                <td class="">
+                    <button class="btn-parametr-table">Да</button>
+                </td>
+                <td class="">
+                    <button class="btn-parametr-table">Нет</button>
+                </td>
+            </tr>
+            <tr class="table-parametr-body">
+                <td class="parametr-table-text-2">Отложить на</td>
+                <td class="parametr-table-text-3">18:30</td>
+                <td class="">
+                    <button class="btn-parametr-table">Да</button>
+                </td>
+                <td class="">
+                    <button class="btn-parametr-table">Нет</button>
+                </td>
+            </tr>
+            <tr class="table-parametr-body">
+                <td class="parametr-table-text-1">На вынос</td>
+                <td class="">
+                    <button class="btn-parametr-table">Нет</button>
+                </td>
+            </tr>
+            <tr class="table-parametr-body">
+                <td class="parametr-table-text-1">Просмотреть заказ</td>
+                <td class="">
+                    <button class="btn-parametr-table">
+                        <img src="../images/basket.svg" alt="basket">
+                    </button>
+                </td>
+            </tr>
+        </table>
+        <div style="padding: 0px 50px;">
+            <button class="btn-sum-all">1160</button>
+        </div>
+    </div>
+</div>

@@ -1,0 +1,258 @@
+.orders{
+    display: flex;
+    background-color: #FAFAFA;
+}
+
+.first-part{
+    width: 68%;
+    padding: 70px 30px;
+}
+
+.second-part{
+    border-left: 2px solid #F4F4F4;;
+    width: 32%;
+    height: 100%;
+    box-sizing: border-box;
+    background-color: #FFFFFF;
+}
+
+
+.order-header-text{
+    font-family: 'Averta CY';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 100%;
+    display: flex;
+    align-items: center;
+    color: rgba(9, 27, 80, 0.6);
+}
+
+.orders-table{
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+.header{
+    background: #FFFFFF;
+    border-bottom: 1px solid #ECEEF2;
+    box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.06);
+}
+
+.header-element{
+    font-family: 'Averta CY';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16.4155px;
+    line-height: 100%;
+    text-align: center;
+    color: rgba(9, 27, 80, 0.6);
+    padding: 30px 45px;
+}
+
+.header-element-num{
+    font-family: 'Averta CY';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16.4155px;
+    line-height: 100%;
+    text-align: center;
+    color: rgba(9, 27, 80, 0.6);
+    padding: 30px 45px;
+}
+
+.body{
+    background-color: #FFFFFF;
+    border-bottom: 1px solid #ECEEF2;
+}
+
+.body-element{
+    font-family: 'Averta CY';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18.7606px;
+    line-height: 100%;
+    text-align: center;
+    padding: 20px 30px;
+    color: #091B50;
+
+}
+
+.body-element-num{
+    font-family: 'Averta CY';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18.7606px;
+    line-height: 100%;
+    text-align: center;
+    padding: 20px 30px;
+    color: #091B50;
+}
+
+.img-body-element{
+    margin: 0px 5px;
+    cursor: pointer;
+}
+
+.btn-page{
+    background-color: rgba(9, 27, 80, 0.05);
+    opacity: 0.5;
+    border-radius: 11.2px;
+    width: 50px;
+    height: 50px;
+    border: 0px solid transparent;
+    margin-right: 10px;
+    transition: all 0.3s ease-in-out;
+}
+
+.btn-page:hover{
+    cursor: pointer;
+    background-color: rgba(9, 27, 80, 0.05);
+    opacity: 0.99;
+    border: 0px solid transparent;
+}
+
+.page-index{
+    color: rgba(9, 27, 80, 0.6);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.pagination{
+    margin-top: 700px;
+    padding: 50px;
+    display: flex;
+    right: 0px;
+    justify-content: right;
+    margin-bottom: 50px;
+}
+
+.btn-helpers{
+    background-color: transparent;
+    border: 0px solid transparent;
+    cursor: pointer;
+}
+
+.parametr{
+    font-family: 'Averta CY';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 22px;
+    line-height: 100%;
+    display: flex;
+    align-items: center;
+    color: rgba(9, 27, 80, 0.6);
+    justify-content: center;
+    margin-top: 50px;
+    margin-bottom: 30px;
+}
+
+.table-parametr{
+    padding: 0 20px;
+    width: 100%;
+}
+
+
+.btn-sum-all{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 27px 10px;
+    background: #0084F4;
+    box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.06);
+    border-radius: 2px;
+    border: 1px solid transparent;
+
+    font-family: 'Averta CY';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 26px;
+    line-height: 20px;
+    text-align: center;
+    color: #FFFFFF;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    width: 100%;
+    margin-bottom: 40px;
+    margin-top: 600px;
+    transition: all 0.3s ease-in-out;
+}
+
+.btn-sum-all:hover{
+    cursor: pointer;
+    border: 1px solid #0084F4;
+    background-color: white;
+    color: #0084F4;
+}
+
+.parametr-table-text-1{
+    font-family: 'Averta CY';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 22px;
+    line-height: 100%;
+    display: flex;
+    align-items: center;
+    color: #000D34;
+    opacity: 0.8;
+}
+
+.btn-parametr-table{
+    padding: 10px;
+    box-sizing: border-box;
+    background: rgba(244, 244, 245, 0.5);
+    border: 1px solid #ECEEF2;
+    border-radius: 2px;
+
+    font-family: 'Averta CY';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 100%;
+    display: flex;
+    align-items: center;
+    color: #122045;
+    opacity: 0.8;
+    transition: all 0.3s ease-in-out;
+}
+
+.btn-parametr-table:hover{
+    cursor: pointer;
+    background-color: #0084F4;
+    color: #FFFFFF;
+}
+
+.parametr-table-text-2{
+    font-family: 'Averta CY';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 22px;
+    line-height: 100%;
+    display: flex;
+    align-items: center;
+    text-decoration-line: underline;
+    color: #0084F4;
+}
+
+.parametr-table-text-3{
+    font-family: 'Averta CY';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 22px;
+    line-height: 100%;
+    display: flex;
+    align-items: center;
+    color: #122045;
+}
+
+.table-parametr-body{
+    display: flex;
+    justify-content: space-between;
+    background-color: #FFFFFF;
+    border-bottom: 1px solid #ECEEF2;
+    padding: 20px;
+}

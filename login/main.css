@@ -1,0 +1,138 @@
+.login{
+    display: flex;
+}
+
+.main-text{
+    font-family: 'Averta CY';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 191.975px;
+    line-height: 237px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    margin-top: 250px;
+    color: #000D34;
+}
+
+.first-part{
+    width: 68%;
+    margin: 40px 30px;
+}
+
+.second-part{
+    border-left: 2px solid #F4F4F4;;
+    width: 32%;
+    height: 100%;
+    padding: 0 50px;
+    box-sizing: border-box;
+}
+
+.time{
+    font-family: 'Averta CY';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 100%;
+    display: flex;
+    align-items: right;
+    justify-content: right;
+    color: rgba(9, 27, 80, 0.5);
+    margin-top: 15px;
+}
+
+.undov{
+    display: flex;
+    margin-top: 65px;
+}
+
+.undov-text{
+    font-family: 'Averta CY';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 22px;
+    line-height: 100%;
+    display: flex;
+    align-items: center;
+    color: #122045;
+    margin-left: 10px;
+}
+
+.login-inputs{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 80px;
+}
+
+.inputs{
+    background: #FAFAFA;
+    border-radius: 2px;
+    height: 70px;
+    width: 100%;
+    border: 0px solid transparent;
+    margin: 15px;
+    font-size: 32px;
+    text-align: center;
+    padding: 0 10px;
+    outline: none;
+}
+
+.keyboard{
+    background: #FAFAFA;
+    border-radius: 2px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 50px;
+    padding: 20px;
+}
+
+.btn{
+    background: #FFFFFF;
+    border-radius: 4px;
+    border: 0px solid transparent;
+    width: 80px;
+    height: 50px;
+    margin: 10px;
+    transition: all 0.3s ease-in-out;
+
+    font-family: 'Averta CY';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 27px;
+    color: #000D34;
+}
+
+.btn:hover{
+    cursor: pointer;
+    background-color: blanchedalmond;
+    border: 0px solid transparent;
+}
+
+.back{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 70px;
+    margin-bottom: 150px;
+}
+
+.btn-back{
+    background: #0084F4;
+    border-radius: 2px;
+    border: 1px solid transparent;
+    height: 70px;
+    width: 100%;
+    border: 0px solid transparent;
+    transition: all 0.3s ease-in-out;
+}
+
+.btn-back:hover{
+    cursor: pointer;
+    background-color: blanchedalmond;
+    border: 1px solid #0084F4;
+}
+

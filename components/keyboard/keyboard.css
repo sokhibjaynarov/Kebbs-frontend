@@ -1,0 +1,15 @@
+.keyboard{
+    background: #FAFAFA;
+    border-radius: 2px;
+    display: flex;
+}
+
+.btn-container{
+    
+}
+
+.btn{
+    background: #FFFFFF;
+    border-radius: 4px;
+    width: 100%;
+}

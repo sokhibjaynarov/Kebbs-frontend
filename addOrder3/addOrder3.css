@@ -1,0 +1,260 @@
+.add-orders{
+    display: flex;
+    background-color: #FAFAFA;
+}
+
+.first-part{
+    width: 68%;
+    padding: 70px 30px;
+}
+
+.second-part{
+    border-left: 2px solid #F4F4F4;;
+    width: 32%;
+    height: 100%;
+    box-sizing: border-box;
+    background-color: #FFFFFF;
+}
+
+.btn-category{
+    background: #FFFFFF;
+    border: 2px solid #0084F4;
+    border-radius: 8px;
+    padding: 20px;
+    margin: 10px;
+    transition: all 0.3s ease-in-out;
+
+    font-family: 'Averta CY';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 18px;
+    text-align: center;
+    color: #000D34;
+}
+
+.btn-menu{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    padding: 0px 20px;
+}
+
+.btn-category:hover{
+    background-color: #0084F4;
+    color: #F4F4F4;
+    cursor: pointer;
+}
+
+.btn-product{
+    background: #FFFFFF;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.06);
+    border-radius: 8px;
+    border: 0px;
+    transition: all 0.3s ease-in-out;
+    padding: 15px 30px;
+    width: 100%;
+    margin: 10px;
+
+    font-family: 'Averta CY';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 100%;
+    text-align: center;
+    color: #000D34;
+    opacity: 0.9;
+}
+
+.btn-product:hover{
+    background: #B7DDF4;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.06);
+    border-radius: 8px;
+    cursor: pointer;
+
+    font-family: 'Averta CY';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 100%;
+    text-align: center;
+    color: #000D34;
+}
+.product-btns{
+    margin-top: 100px;
+}
+
+.products{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.btn-helpers{
+    background-color: transparent;
+    border: 0px solid transparent;
+    cursor: pointer;
+}
+
+.product{
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Averta CY';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 100%;
+    color: rgba(9, 27, 80, 0.6);
+    opacity: 0.7;
+}
+
+.variant{
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Averta CY';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 22px;
+    line-height: 100%;
+    display: flex;
+    align-items: center;
+    color: #000D34;
+    opacity: 0.8;
+}
+
+.element{
+    display: flex;
+    justify-content: space-between;
+    padding: 30px 30px;
+    border-bottom: 1px solid #ECEEF2;
+    margin: 0%;
+}
+
+.element-selected{
+    display: flex;
+    justify-content: space-between;
+    padding: 15px 30px;
+    border-bottom: 1px solid #ECEEF2;
+    margin: 0%;
+    background: #B7DDF4;
+}
+
+.element-disabled{
+    display: flex;
+    justify-content: space-between;
+    padding: 30px 30px;
+    border-bottom: 1px solid #ECEEF2;
+    margin: 0%;
+    opacity: 0.2;
+}
+
+.name{
+    font-family: 'Averta CY';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 100%;
+    display: flex;
+    align-items: center;
+    color: #000D34;
+}
+
+.btn-selected{
+    color: #000D34;
+    border: 0px solid transparent;
+    background-color: white;
+    font-family: 'Averta CY';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 100%;
+    display: flex;
+    align-items: center;
+    text-align: center;
+
+    cursor: pointer;
+    padding: 10px 25px;
+}
+
+.selected{
+    display: flex;
+}
+
+.count{
+    font-family: 'Averta CY';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 100%;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #FFFFFF;
+
+    background: #FF544A;
+    padding: 10px 20px;
+}
+
+.name-selected{
+    font-family: 'Averta CY';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 100%;
+    color: #000D34;
+
+    padding: 10px;
+}
+
+.price{
+    font-family: 'Averta CY';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 100%;
+    display: flex;
+    align-items: center;
+    text-align: right;
+    color: #020739;
+    opacity: 0.5;
+}
+
+.btn-cancel{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 27px 10px;
+    margin-top: 500px;
+    margin-bottom: 50px;
+    width: 100%;
+    background: #FFFFFF;
+    box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.06);
+    border-radius: 2px;
+    transition: all 0.3s ease-in-out;
+    border: 0px solid transparent;
+
+    font-family: 'Averta CY';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 26px;
+    line-height: 20px;
+    text-align: center;
+    color: #FF544A;;
+
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+
+}
+
+.btn-cancel:hover{
+    background-color: #B7DDF4;
+    border: 0px solid transparent;
+    cursor: pointer;
+    color: #0084F4;
+}

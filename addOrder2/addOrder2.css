@@ -1,0 +1,220 @@
+.add-orders{
+    display: flex;
+    background-color: #FAFAFA;
+}
+
+.first-part{
+    width: 68%;
+    padding: 70px 30px;
+}
+
+.second-part{
+    border-left: 2px solid #F4F4F4;;
+    width: 32%;
+    height: 100%;
+    box-sizing: border-box;
+    background-color: #FFFFFF;
+}
+
+.payment-screen{
+    font-family: 'Averta CY';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 100%;
+    display: flex;
+    align-items: center;
+    color: rgba(9, 27, 80, 0.6);
+}
+
+.form{
+    background: #FFFFFF;
+    border: 2.5px solid #ECEEF2;
+    border-radius: 2px;
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    width: 100%;
+    margin-top: 20px;
+    margin-bottom: 50px;
+}
+
+.input-form-text{
+    font-family: 'Averta CY';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 23.0336px;
+    line-height: 100%;
+    color: #122045;
+    width: 100%;
+}
+
+.input-form{
+    outline: none;
+    border: 1px solid transparent;
+    padding: 10px;
+    width: 100%;
+    font-size: 30px;
+    text-align: right;
+}
+
+.btn-price{
+    background: #FFFFFF;
+    border: 3px solid #ECEEF2;
+    border-radius: 2px;
+    width: 100%;
+    padding: 10px;
+
+    font-family: 'Averta CY';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 103.6%;
+    text-align: center;
+    color: #000D34;
+    transition: all 0.3s ease-in-out;
+    margin-right: 20px;
+}
+
+.btn-menu{
+    display: flex; 
+    width: 100%; 
+    justify-content: space-between;
+    padding: 0px 20px;
+    box-sizing: border-box;
+}
+
+.btn-price:hover{
+    cursor: pointer;
+    background-color: blueviolet;
+}
+
+.price-btns{
+    display: flex;
+    margin-bottom: 20px;
+}
+
+.btn-sum-price{
+    background: #27AE60;
+    border: 3px solid #ECEEF2;
+    border-radius: 2px;
+    width: 100%;
+    padding: 10px;
+
+    font-family: 'Averta CY';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 35px;
+    line-height: 103.6%;
+    text-align: center;
+    color: #FFFFFF;
+    transition: all 0.3s ease-in-out;
+}
+
+.btn-sum-price:hover{
+    cursor: pointer;
+    background-color: #ECEEF2;
+    border: 3px solid #27AE60;
+    color: #27AE60;
+}
+
+.btn-helpers{
+    background-color: transparent;
+    border: 0px solid transparent;
+    cursor: pointer;
+}
+
+.product-name{
+    font-family: 'Averta CY';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 22px;
+    line-height: 100%;
+    display: flex;
+    align-items: center;
+    color: #000D34;
+}
+
+.product-info{
+    font-family: 'Averta CY';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 100%;
+    display: flex;
+    align-items: center;
+    color: rgba(9, 27, 80, 0.6);
+    margin-top: 10px;
+}
+
+.product{
+    margin-top: 70px;
+    margin-bottom: 700px;
+    padding: 30px 30px;
+    border-bottom: 1px solid #ECEEF2;
+}
+
+.add-btn{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 27px 10px;
+    background: #FAFAFA;
+    border: 1px solid #ECEEF2;
+    box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.06);
+    border-radius: 2px;
+    width: 100%;
+
+    font-family: 'Averta CY';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 26px;
+    line-height: 20px;
+    text-align: center;
+    color: #0084F4;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    margin-bottom: 30px;
+    transition: all 0.3s ease-in-out;
+}
+
+.add-btn:hover{
+    cursor: pointer;
+    background-color: #0084F4;
+    color: white;
+}
+
+.btn-sum-all{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 27px 10px;
+    background: #0084F4;
+    box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.06);
+    border-radius: 2px;
+    border: 1px solid transparent;
+
+    font-family: 'Averta CY';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 26px;
+    line-height: 20px;
+    text-align: center;
+    color: #FFFFFF;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    width: 100%;
+    margin-bottom: 40px;
+    transition: all 0.3s ease-in-out;
+}
+
+.btn-sum-all:hover{
+    cursor: pointer;
+    border: 1px solid #0084F4;
+    background-color: white;
+    color: #0084F4;
+}
