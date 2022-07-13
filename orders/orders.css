@@ -34,6 +34,12 @@
     margin-top: 20px;
 }
 
+.orders-info{
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
 .header{
     background: #FFFFFF;
     border-bottom: 1px solid #ECEEF2;
@@ -163,6 +169,17 @@
     margin-top: 30px;
 }
 
+.orders-table-element{
+    display: flex; 
+    justify-content: space-between;
+}
+
+.order-cash-body-element{
+    display: flex; 
+    justify-content: space-between;
+    width: 150px;
+}
+
 .order-cash-text{
     font-family: 'Averta CY';
     font-style: normal;
@@ -175,71 +192,26 @@
     margin-top: 60px;
 }
 
-.order-cash-header-right{
+.order-cash-header{
     font-family: 'Averta CY';
     font-style: normal;
     font-weight: 400;
     font-size: 22px;
     line-height: 27px;
-    text-align: right;
-    color: #000D34;
-    width: 100%;
-    padding: 5px 0px;
-}
-
-.order-cash-header-left{
-    font-family: 'Averta CY';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 22px;
-    line-height: 27px;
-    text-align: left;
     color: #000D34;
     padding: 5px 0px;
-    width: 100%;
 }
 
-.order-cash-body-left{
+.order-cash-body{
     font-family: 'Averta CY';
     font-style: normal;
     font-weight: 400;
     font-size: 22px;
     line-height: 27px;
-    text-align: left;
     text-decoration-line: underline;
     color: #153B6F;
     opacity: 0.8;
     padding: 5px 0px;
-}
-
-.order-cash-body-right{
-    font-family: 'Averta CY';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 22px;
-    line-height: 27px;
-    text-align: left;
-    text-decoration-line: underline;
-    color: #153B6F;
-    opacity: 0.8;
-    padding: 5px 0px;
-    width: 100%;
-}
-
-.order-cash-body-center
-{
-    font-family: 'Averta CY';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 22px;
-    line-height: 27px;
-    text-align: center;
-    align-items: center;
-    text-decoration-line: underline;
-    color: #153B6F;
-    padding: 5px 0px;
-    opacity: 0.8;
-    width: 100%;
 }
 
 .orders-btn{
@@ -265,3 +237,394 @@
     cursor: pointer;
     background-color: antiquewhite;
 }
+
+.second-part-elements{
+    padding: 0px 25px;
+}
+
+.space-buttons{
+    margin: 0px 20px;
+}
+
+
+/* X-Large devices (large desktops, less than 1400px) */
+@media (max-width: 1399.98px) { 
+    .first-part{
+        padding: 40px 20px 0 20px;
+    }
+    .order-header-text{
+        font-size: 20px;
+        margin-top: 0;
+    }
+
+    .orders-table{
+        margin-top: 20px;
+    }
+
+    .header-element{
+        font-size: 18px;
+        padding: 20px 10px;
+    }
+
+    .header-element-num{
+        font-size: 18px;
+        padding: 20px 10px;
+    }
+
+    .body-element{
+        font-size: 18px;
+        padding: 20px 10px;
+    }
+
+    .body-element-num{
+        font-size: 18px;
+        padding: 20px 10px;
+    }
+
+    .img-body-element{
+        width: 25px;
+        height: auto;
+    }
+
+    .pagination{
+        padding: 40px;
+    }
+
+    .btn-page{
+        font-size: 16px;
+        width: 50px;
+        height: 50px;
+        padding: 0;
+    }
+
+    .page-index{
+        font-size: 16px;
+    }
+
+    .time{
+        font-size: 18px;
+        margin: 0;
+        padding: 0 10px;
+    }
+    
+    .second-part{
+        padding: 0;
+    }
+
+    .second-part-elements{
+        margin-top: 30px;
+    }
+
+    .space-buttons{
+        margin: 0px 10px;
+    }
+
+    .btn-tray{
+        width: 100%;
+        height: 50px;
+        padding: 0;
+    }
+
+    .orders-table-element{
+        padding: 3px 0;
+    }
+
+    .btn-tray-image{
+        width: 55px;
+        height: auto;
+    }
+
+    .btn-order-tray{
+        margin-top: 20px;
+    }
+
+    .order-cash-text{
+        font-size: 20px;
+        margin-top: 40px;
+    }
+
+    .order-cash-header{
+        font-size: 20px;
+        padding: 0%;
+    }
+
+    .order-cash-body{
+        font-size: 20px;
+        padding: 0%;
+    }
+
+    .orders-info{
+        margin-top: 0;
+    }
+
+    .order-cash-body-element{
+        width: 120px;
+    }
+
+    .orders-btn{
+        margin-top: 80px;
+        margin-bottom: 10px;
+    }
+
+    .btn-orders-btn{
+        width: 100%;
+        height: 60px;
+        margin-bottom: 20px;
+    }
+
+    .btn-orders-btn-image{
+        width: 30px;
+        height: auto;
+    }
+    
+}
+
+/* Large devices (desktops, less than 1200px) */
+@media (max-width: 1199.98px) { 
+    
+    .first-part{
+        padding: 40px 20px 0 20px;
+    }
+    .order-header-text{
+        font-size: 18px;
+        margin-top: 0;
+    }
+
+    .orders-table{
+        margin-top: 10px;
+    }
+
+    .header-element{
+        font-size: 16px;
+        padding: 15px 5px;
+    }
+
+    .header-element-num{
+        font-size: 16px;
+        padding: 15px 5px;
+    }
+
+    .body-element{
+        font-size: 16px;
+        padding: 15px 5px;
+    }
+
+    .body-element-num{
+        font-size: 16px;
+        padding: 15px 5px;
+    }
+
+    .img-body-element{
+        width: 20px;
+        height: auto;
+    }
+
+    .pagination{
+        padding: 20px;
+    }
+
+    .btn-page{
+        font-size: 14px;
+        width: 50px;
+        height: 50px;
+        padding: 0;
+    }
+
+    .page-index{
+        font-size: 14px;
+    }
+
+    .time{
+        font-size: 16px;
+        margin: 0;
+        padding: 0 10px;
+    }
+    
+    .second-part{
+        padding: 0;
+    }
+
+    .space-buttons{
+        margin: 0px 10px;
+    }
+
+    .btn-tray{
+        width: 100%;
+        height: 40px;
+        padding: 0;
+    }
+
+    .btn-tray-image{
+        width: 50px;
+        height: auto;
+    }
+
+    .btn-order-tray{
+        margin-top: 20px;
+    }
+
+    .order-cash-text{
+        font-size: 18px;
+        margin-top: 20px;
+    }
+
+    .order-cash-header{
+        font-size: 18px;
+        padding: 0%;
+    }
+
+    .order-cash-body{
+        font-size: 18px;
+        padding: 0%;
+    }
+
+    .orders-info{
+        margin-top: 0;
+    }
+
+    .order-cash-body-element{
+        width: 80px;
+    }
+
+    .orders-btn{
+        margin-top: 50px;
+        margin-bottom: 10px;
+    }
+
+    .btn-orders-btn{
+        width: 100%;
+        height: 50px;
+        margin-bottom: 10px;
+    }
+
+    .btn-orders-btn-image{
+        width: 20px;
+        height: auto;
+    }
+
+}
+
+/* Medium devices (tablets, less than 992px) */
+@media (max-width: 991.98px) { 
+
+    .first-part{
+        padding: 40px 20px 0 20px;
+    }
+    .order-header-text{
+        font-size: 16px;
+        margin-top: 0;
+    }
+
+    .orders-table{
+        margin-top: 10px;
+    }
+
+    .header-element{
+        font-size: 12px;
+        padding: 15px 5px;
+    }
+
+    .header-element-num{
+        font-size: 12px;
+        padding: 15px 5px;
+    }
+
+    .body-element{
+        font-size: 12px;
+        padding: 15px 5px;
+    }
+
+    .body-element-num{
+        font-size: 12px;
+        padding: 15px 5px;
+    }
+
+    .img-body-element{
+        width: 20px;
+        height: auto;
+    }
+
+    .pagination{
+        padding: 20px;
+    }
+
+    .btn-page{
+        font-size: 12px;
+        width: 40px;
+        height: 40px;
+        padding: 0;
+    }
+
+    .page-index{
+        font-size: 12px;
+    }
+
+    .time{
+        font-size: 14px;
+        margin: 0;
+        padding: 0 10px;
+    }
+    
+    .second-part{
+        padding: 0;
+    }
+
+    .space-buttons{
+        margin: 0px 10px;
+    }
+
+    .btn-tray{
+        width: 100%;
+        height: 40px;
+        padding: 0;
+    }
+
+    .btn-tray-image{
+        width: 50px;
+        height: auto;
+    }
+
+    .btn-order-tray{
+        margin-top: 20px;
+    }
+
+    .order-cash-text{
+        font-size: 16px;
+        margin-top: 20px;
+    }
+
+    .order-cash-header{
+        font-size: 16px;
+        padding: 0%;
+    }
+
+    .order-cash-body{
+        font-size: 16px;
+        padding: 0%;
+    }
+
+    .orders-info{
+        margin-top: 0;
+    }
+
+    .order-cash-body-element{
+        width: 80px;
+    }
+
+    .orders-btn{
+        margin-top: 50px;
+        margin-bottom: 10px;
+    }
+
+    .btn-orders-btn{
+        width: 100%;
+        height: 50px;
+        margin-bottom: 10px;
+    }
+
+    .btn-orders-btn-image{
+        width: 20px;
+        height: auto;
+    }
+
+ }

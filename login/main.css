@@ -89,7 +89,7 @@
     padding: 20px;
 }
 
-.btn{
+.btn-keyboard{
     background: #FFFFFF;
     border-radius: 4px;
     border: 0px solid transparent;
@@ -106,7 +106,7 @@
     color: #000D34;
 }
 
-.btn:hover{
+.btn-keyboard:hover{
     cursor: pointer;
     background-color: blanchedalmond;
     border: 0px solid transparent;
@@ -135,4 +135,217 @@
     background-color: blanchedalmond;
     border: 1px solid #0084F4;
 }
+
+/* X-Large devices (large desktops, less than 1400px) */
+@media (max-width: 1399.98px) { 
+    .main-text{
+        font-size: 180px;
+        margin-top: 90px;
+    }
+
+    .logo{
+        width: 350px;
+        height: auto;
+    }
+
+    .time{
+        font-size: 18px;
+    }
+
+    .undov{
+        margin-top: 40px;
+    }
+
+    .undov-image{
+        width: 60px;
+        height: auto;
+    }
+
+    .undov-text{
+        font-size: 20px;
+    }
+
+    .second-part{
+        padding: 0 35px;
+    }
+
+    .inputs{
+        font-size: 30px;
+        height: 60px;
+        margin: 15px;
+    }
+
+    .login-inputs{
+        margin-top: 40px;
+    }
+
+    .btn-keyboard{
+        width: 70px;
+        height: 50px;
+        font-size: 18px;
+        margin: 5px;
+    }
+
+    .keyboard {
+        padding: 20px;
+    }
+
+    .back{
+        margin-top: 50px;
+        margin-bottom: 10px;
+    }
+
+    .btn-back{
+        height: 60px;
+        font-size: 18px;
+        margin-bottom: 0%;
+    }
+
+    .btn-back-image{
+        width: 30px;
+        height: auto;
+    }
+}
+
+/* Large devices (desktops, less than 1200px) */
+@media (max-width: 1199.98px) { 
+    .main-text{
+        font-size: 130px;
+        margin-top: 90px;
+    }
+
+    .logo{
+        width: 230px;
+        height: auto;
+    }
+
+    .time{
+        font-size: 14px;
+    }
+
+    .undov{
+        margin-top: 40px;
+    }
+
+    .undov-image{
+        width: 40px;
+        height: auto;
+    }
+
+    .undov-text{
+        font-size: 16px;
+    }
+
+    .second-part{
+        padding: 0 35px;
+    }
+
+    .inputs{
+        font-size: 20px;
+        height: 50px;
+        margin: 10px;
+    }
+
+    .login-inputs{
+        margin-top: 40px;
+    }
+
+    .btn-keyboard{
+        width: 55px;
+        height: 40px;
+        font-size: 14px;
+        margin: 5px;
+    }
+
+    .keyboard {
+        padding: 10px;
+    }
+
+    .back{
+        margin-top: 50px;
+        margin-bottom: 10px;
+    }
+
+    .btn-back{
+        height: 50px;
+        font-size: 14px;
+        margin-bottom: 0%;
+    }
+
+    .btn-back-image{
+        width: 20px;
+        height: auto;
+    }
+}
+
+/* Medium devices (tablets, less than 992px) */
+@media (max-width: 991.98px) { 
+    .main-text{
+        font-size: 130px;
+        margin-top: 90px;
+    }
+
+    .logo{
+        width: 230px;
+        height: auto;
+    }
+
+    .time{
+        font-size: 14px;
+    }
+
+    .undov{
+        margin-top: 40px;
+    }
+
+    .undov-image{
+        width: 30px;
+        height: auto;
+    }
+
+    .undov-text{
+        font-size: 14px;
+    }
+
+    .second-part{
+        padding: 0 35px;
+    }
+
+    .inputs{
+        font-size: 20px;
+        height: 50px;
+        margin: 10px;
+    }
+
+    .login-inputs{
+        margin-top: 40px;
+    }
+
+    .btn-keyboard{
+        width: 50px;
+        height: 30px;
+        font-size: 14px;
+        margin: 5px;
+    }
+
+    .keyboard {
+        padding: 10px;
+    }
+
+    .back{
+        margin-top: 50px;
+        margin-bottom: 10px;
+    }
+
+    .btn-back{
+        height: 50px;
+        font-size: 14px;
+        margin-bottom: 0%;
+    }
+
+    .btn-back-image{
+        width: 20px;
+        height: auto;
+    }
+ }
 
