@@ -38,6 +38,7 @@
     width: 100%;
     justify-content: space-between;
     padding: 0px 20px;
+    box-sizing: border-box;
 }
 
 .btn-category:hover{

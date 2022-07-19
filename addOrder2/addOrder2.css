@@ -6,6 +6,7 @@
 .first-part{
     width: 68%;
     padding: 70px 30px;
+    display: flex;
 }
 
 .second-part{
@@ -37,6 +38,7 @@
     width: 100%;
     margin-top: 20px;
     margin-bottom: 50px;
+    box-sizing: border-box;
 }
 
 .input-form-text{
@@ -58,6 +60,27 @@
     text-align: right;
 }
 
+.btn-delete-price{
+    box-sizing: border-box;
+    background: #FFFFFF;
+    opacity: 0.75;
+    border: 2px solid #ECEEF2;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    margin-top: 195px;
+    margin-left: 10px;
+    color: #0084F4;
+    transition: all 0.3s ease-in-out;
+}
+
+.btn-delete-price:hover{
+    opacity: 1;
+    color: #FFFFFF;
+    background: #0084F4;
+    cursor: pointer;
+}
+
 .btn-price{
     background: #FFFFFF;
     border: 3px solid #ECEEF2;
@@ -73,7 +96,10 @@
     text-align: center;
     color: #000D34;
     transition: all 0.3s ease-in-out;
-    margin-right: 20px;
+}
+
+.btn-price-space{
+    margin: 10px;
 }
 
 .btn-menu{
