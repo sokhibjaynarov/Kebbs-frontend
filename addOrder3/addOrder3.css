@@ -224,7 +224,11 @@
     opacity: 0.5;
 }
 
-.btn-cancel{
+.sold-btn-container{
+    padding: 0px 50px;
+}
+
+.btn-sold{
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -250,12 +254,289 @@
     flex: none;
     order: 0;
     flex-grow: 0;
-
 }
 
-.btn-cancel:hover{
+.btn-sold:hover{
     background-color: #B7DDF4;
     border: 0px solid transparent;
     cursor: pointer;
     color: #0084F4;
 }
+
+
+@media (max-width: 1399.98px) { 
+    .first-part{
+        padding: 65px 25px;
+    }
+    
+    .btn-menu{
+        padding: 0px 20px;
+    }
+
+    .img-btn-menu{
+        width:20px;
+        height:20px;
+    }
+    
+    .btn-category{
+        padding: 18px;
+        margin: 8px;
+        font-size: 16px;
+        line-height: 16px;
+    }
+    
+    .btn-product{
+        padding: 13px 28px;
+        margin: 8px;
+        font-size: 16px;
+    }
+
+    .product-btns{
+        margin-top: 85px;
+    }
+    
+    .product{
+        margin-top: 18px;
+        font-size: 20px;
+    }
+    
+    .variant{
+        margin-top: 18px;
+        font-size: 20px;
+    }
+    
+    .element{
+        padding: 26px;
+    }
+
+    .element-disabled{
+        padding: 26px;
+    }
+
+    .element-selected{
+        padding: 13px 28px;
+    }
+
+    .btn-selected{
+        font-size: 24px;
+        padding: 8px 23px;
+    }
+    
+    .count{
+        font-size: 24px;
+        padding: 8px 18px;
+    }
+    
+    .name-selected{
+        font-size: 18px;
+        padding: 8px;
+    }
+    
+    .name{
+        font-size: 18px;
+    }
+    
+    .price{
+        font-size: 18px;
+    }
+
+    .sold-btn-container{
+        padding: 0px 40px;
+    }
+    
+    .btn-sold{
+        padding: 25px 8px;
+        margin-top: 400px;
+        margin-bottom: 45px;
+        font-size: 24px;
+        line-height: 18px;
+    }
+}
+
+/* Large devices (desktops, less than 1200px) */
+@media (max-width: 1199.98px) { 
+    .first-part{
+        padding: 60px 20px;
+    }
+    
+    .btn-menu{
+        padding: 0px 20px;
+    }
+
+    .btn-product:hover{
+        font-size: 14px;
+    }
+
+    .img-btn-menu{
+        width:18px;
+        height:18px;
+    }
+    
+    .btn-category{
+        padding: 16px;
+        margin: 6px;
+        font-size: 14px;
+        line-height: 14px;
+    }
+    
+    .btn-product{
+        padding: 11px 26px;
+        margin: 8px;
+        font-size: 14px;
+    }
+
+    .product-btns{
+        margin-top: 70px;
+    }
+    
+    .product{
+        margin-top: 16px;
+        font-size: 18px;
+    }
+    
+    .variant{
+        margin-top: 16px;
+        font-size: 18px;
+    }
+    
+    .element{
+        padding: 24px;
+    }
+
+    .element-disabled{
+        padding: 24px;
+    }
+
+    .element-selected{
+        padding: 11px 26px;
+    }
+
+    .btn-selected{
+        font-size: 22px;
+        padding: 6px 21px;
+    }
+    
+    .count{
+        font-size: 22px;
+        padding: 6px 16px;
+    }
+    
+    .name-selected{
+        font-size: 16px;
+        padding: 6px;
+    }
+    
+    .name{
+        font-size: 16px;
+    }
+    
+    .price{
+        font-size: 16px;
+    }
+    
+    .sold-btn-container{
+        padding: 0px 30px;
+    }
+    
+    .btn-sold{
+        padding: 23px 6px;
+        margin-top: 250px;
+        margin-bottom: 22px;
+        font-size: 22px;
+        line-height: 16px;
+    }
+}
+
+/* Medium devices (tablets, less than 992px) */
+@media (max-width: 991.98px) { 
+    .first-part{
+        padding: 55px 15px;
+    }
+    
+    .btn-menu{
+        padding: 0px 20px;
+    }
+
+    .btn-product:hover{
+        font-size: 12px;
+    }
+
+    .img-btn-menu{
+        width:16px;
+        height:16px;
+    }
+    
+    .btn-category{
+        padding: 14px;
+        margin: 4px;
+        font-size: 12px;
+        line-height: 12px;
+    }
+    
+    .btn-product{
+        padding: 9px 24px;
+        margin: 8px;
+        font-size: 14px;
+    }
+
+    .product-btns{
+        margin-top: 55px;
+    }
+    
+    .product{
+        margin-top: 14px;
+        font-size: 16px;
+    }
+    
+    .variant{
+        margin-top: 14px;
+        font-size: 16px;
+    }
+    
+    .element{
+        padding: 22px;
+    }
+
+    .element-disabled{
+        padding: 22px;
+    }
+
+    .element-selected{
+        padding: 9px 24px;
+    }
+
+    .btn-selected{
+        font-size: 20px;
+        padding: 4px 19px;
+    }
+    
+    .count{
+        font-size: 20px;
+        padding: 4px 14px;
+    }
+    
+    .name-selected{
+        font-size: 14px;
+        padding: 4px;
+    }
+    
+    .name{
+        font-size: 14px;
+    }
+    
+    .price{
+        font-size: 14px;
+    }
+    
+    .sold-btn-container{
+        padding: 0px 25px;
+    }
+    
+    .btn-sold{
+        padding: 21px 4px;
+        margin-top: 250px;
+        margin-bottom: 18px;
+        font-size: 20px;
+        line-height: 14px;
+    }
+ }
