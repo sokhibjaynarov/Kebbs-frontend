@@ -244,3 +244,256 @@
     background-color: white;
     color: #0084F4;
 }
+
+.sold-btn-container{
+    padding: 0px 50px;
+}
+
+@media (max-width: 1399.98px){
+    .payment-screen{
+        font-size: 20px;
+    }
+    
+    .form{
+        padding: 8px;
+        margin-top: 18px;
+        margin-bottom: 45px;
+    }
+    
+    .input-form-text{
+        font-size: 20px;
+    }
+    
+    .input-form{
+        padding: 8px;
+        font-size: 26px;
+    }
+    
+    .btn-delete-price{
+        width: 35px;
+        height: 35px;
+        margin-top: 170px;
+        margin-left: 10px;
+    }
+    
+    .btn-price{
+        padding: 8px;
+        font-size: 26px;
+    }
+    
+    .btn-price-space{
+        margin: 8px;
+    }
+    
+    .btn-menu{
+        padding: 0px 18px;
+    }
+    
+    .price-btns{
+        margin-bottom: 18px;
+    }
+    
+    .btn-sum-price{
+        padding: 8px;
+        font-size: 33px;
+    }
+    
+    .product-name{
+        font-size: 20px;
+    }
+    
+    .product-info{
+        font-size: 16px;
+        margin-top: 8px;
+    }
+    
+    .product{
+        margin-top: 65px;
+        margin-bottom: 600px;
+        padding: 25px 25px;
+    }
+    
+    .add-btn{
+        padding: 25px 8px;
+        font-size: 24px;
+        line-height: 18px;
+        margin-bottom: 28px;
+    }
+    
+    .btn-sum-all{
+        padding: 25px 8px;
+        font-size: 24px;
+        line-height: 18px;
+        margin-bottom: 35px;
+    }
+
+    .sold-btn-container{
+        padding: 0px 40px;
+    }
+}
+
+@media (max-width: 1199.98px){
+    .payment-screen{
+        font-size: 18px;
+    }
+    
+    .form{
+        padding: 6px;
+        margin-top: 16px;
+        margin-bottom: 40px;
+    }
+    
+    .input-form-text{
+        font-size: 18px;
+    }
+    
+    .input-form{
+        padding: 6px;
+        font-size: 24px;
+    }
+    
+    .btn-delete-price{
+        width: 30px;
+        height: 30px;
+        margin-top: 147px;
+        margin-left: 10px;
+    }
+    
+    .btn-price{
+        padding: 6px;
+        font-size: 24px;
+    }
+    
+    .btn-price-space{
+        margin: 6px;
+    }
+    
+    .btn-menu{
+        padding: 0px 16px;
+    }
+    
+    .price-btns{
+        margin-bottom: 16px;
+    }
+    
+    .btn-sum-price{
+        padding: 6px;
+        font-size: 26px;
+    }
+    
+    .product-name{
+        font-size: 18px;
+    }
+    
+    .product-info{
+        font-size: 14px;
+        margin-top: 6px;
+    }
+    
+    .product{
+        margin-top: 60px;
+        margin-bottom: 500px;
+        padding: 23px 23px;
+    }
+    
+    .add-btn{
+        padding: 23px 6px;
+        font-size: 22px;
+        line-height: 16px;
+        margin-bottom: 26px;
+    }
+    
+    .btn-sum-all{
+        padding: 23px 8px;
+        font-size: 22px;
+        line-height: 16px;
+        margin-bottom: 33px;
+    }
+
+    .sold-btn-container{
+        padding: 0px 30px;
+    }
+}
+
+@media (max-width: 991.98px){
+    .payment-screen{
+        font-size: 18px;
+    }
+    
+    .form{
+        padding: 4px;
+        margin-top: 14px;
+        margin-bottom: 35px;
+    }
+    
+    .input-form-text{
+        font-size: 16px;
+    }
+    
+    .input-form{
+        padding: 4px;
+        font-size: 22px;
+    }
+    
+    .btn-delete-price{
+        width: 30px;
+        height: 30px;
+        margin-top: 125px;
+        margin-left: 10px;
+    }
+    
+    .btn-price{
+        padding: 4px;
+        font-size: 22px;
+    }
+    
+    .btn-price-space{
+        margin: 4px;
+    }
+    
+    .btn-menu{
+        padding: 0px 14px;
+    }
+    
+    .price-btns{
+        margin-bottom: 14px;
+    }
+    
+    .btn-sum-price{
+        padding: 4px;
+        font-size: 24px;
+    }
+    
+    .product-name{
+        font-size: 16px;
+    }
+    
+    .product-info{
+        font-size: 12px;
+        margin-top: 4px;
+    }
+    
+    .product{
+        margin-top: 55px;
+        margin-bottom: 450px;
+        padding: 20px 20px;
+    }
+    
+    .add-btn{
+        padding: 20px 4px;
+        font-size: 20px;
+        line-height: 14px;
+        margin-bottom: 24px;
+    }
+    
+    .btn-sum-all{
+        padding: 20px 6px;
+        font-size: 20px;
+        line-height: 14px;
+        margin-bottom: 30px;
+    }
+
+    .sold-btn-container{
+        padding: 0px 25px;
+    }
+}
