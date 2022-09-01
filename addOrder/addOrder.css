@@ -1,14 +1,30 @@
-.add-orders{
+*, *::after, *::before {
+  box-sizing: border-box;
+}
+
+html {
+    box-sizing: inherit;
+}
+
+body {
+    margin: 0;
+}
+
+.orders{
     display: flex;
     background-color: #FAFAFA;
 }
 
-.first-part{
+.orders-data{
     width: 68%;
     padding: 70px 30px;
 }
 
-.second-part{
+.orders-data__category--elements{
+    padding-right: 300px;
+}
+
+.orders-summary{
     border-left: 2px solid #F4F4F4;;
     width: 32%;
     height: 100%;
@@ -16,15 +32,16 @@
     background-color: #FFFFFF;
 }
 
-.btn-menu{
+.orders-summary__menu{
     display: flex; 
     width: 100%; 
     justify-content: space-between;
+    margin-top: 16px;
     padding: 0px 20px;
     box-sizing: border-box;
 }
 
-.btn-category{
+.category--elements-btn{
     background: #FFFFFF;
     border: 2px solid #0084F4;
     border-radius: 8px;
@@ -41,20 +58,19 @@
     color: #000D34;
 }
 
-.btn-category:hover{
+.category--elements-btn:hover {
     background-color: #0084F4;
     color: #F4F4F4;
     cursor: pointer;
 }
 
-.btn-product{
+.product--elements-btn {
     background: #FFFFFF;
     box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.06);
     border-radius: 8px;
     border: 0px;
     transition: all 0.3s ease-in-out;
     padding: 15px 30px;
-    width: 100%;
     margin: 10px;
 
     font-family: 'Lexend';
@@ -67,7 +83,7 @@
     opacity: 0.9;
 }
 
-.btn-product:hover{
+.product--elements-btn:hover{
     background: #B7DDF4;
     box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.06);
     border-radius: 8px;
@@ -75,30 +91,28 @@
 
     font-family: 'Lexend';
     font-style: normal;
-    font-weight: 700;
     font-size: 18px;
     line-height: 100%;
     text-align: center;
     color: #000D34;
 }
 
-.product-btns{
+.orders-data__product{
     margin-top: 100px;
 }
 
-.products{
-    display: flex;
+.orders-data__product--elements{
     justify-content: space-between;
     width: 100%;
 }
 
-.btn-helpers{
+.menu-btn{
     background-color: transparent;
     border: 0px solid transparent;
     cursor: pointer;
 }
 
-.product{
+.orders-summary__elements--header{
     margin-top: 20px;
     display: flex;
     justify-content: center;
@@ -112,7 +126,7 @@
     opacity: 0.7;
 }
 
-.variant{
+.orders-summary__elements--body{
     margin-top: 20px;
     display: flex;
     justify-content: center;
@@ -128,7 +142,7 @@
     opacity: 0.8;
 }
 
-.element{
+.products-detail{
     display: flex;
     justify-content: space-between;
     padding: 30px 30px;
@@ -136,7 +150,7 @@
     margin: 0%;
 }
 
-.name{
+.products-detail__name{
     font-family: 'Averta CY';
     font-style: normal;
     font-weight: 400;
@@ -147,7 +161,7 @@
     color: #000D34;
 }
 
-.price{
+.products-detail__price{
     font-family: 'Averta CY';
     font-style: normal;
     font-weight: 400;
@@ -172,9 +186,9 @@
     box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.06);
     border-radius: 2px;
     transition: all 0.3s ease-in-out;
-    border: 0px solid transparent;
+    border: 0 solid transparent;
 
-    font-family: 'Lexend';
+    font-family: 'Lexend', sans-serif;
     font-style: normal;
     font-weight: 800;
     font-size: 26px;
@@ -194,56 +208,61 @@
     color: #0084F4;
 }
 
+.orders-summary__elements--btn{
+    padding: 0px 50px; 
+    margin-bottom: 20px
+}
+
 @media (max-width: 1399.98px) { 
-    .first-part{
+    .orders-data{
         padding: 65px 25px;
     }
     
-    .btn-menu{
+    .orders-summary__menu{
         padding: 0px 20px;
     }
 
-    .img-btn-menu{
+    .menu-btn__img{
         width:20px;
         height:20px;
     }
     
-    .btn-category{
+    .category--elements-btn{
         padding: 18px;
         margin: 8px;
         font-size: 16px;
         line-height: 16px;
     }
     
-    .btn-product{
+    .product--elements-btn{
         padding: 13px 28px;
         margin: 8px;
         font-size: 16px;
     }
 
-    .product-btns{
+    .orders-data__product{
         margin-top: 85px;
     }
     
-    .product{
+    .orders-summary__elements--header{
         margin-top: 18px;
         font-size: 20px;
     }
     
-    .variant{
+    .orders-summary__elements--body{
         margin-top: 18px;
         font-size: 20px;
     }
     
-    .element{
+    .products-detail{
         padding: 26px;
     }
     
-    .name{
+    .products-detail__name{
         font-size: 18px;
     }
     
-    .price{
+    .products-detail__price{
         font-size: 18px;
     }
     
@@ -257,59 +276,59 @@
 
 /* Large devices (desktops, less than 1200px) */
 @media (max-width: 1199.98px) { 
-    .first-part{
+    .orders-data{
         padding: 60px 20px;
     }
     
-    .btn-menu{
+    .orders-summary__menu{
         padding: 0px 20px;
     }
 
-    .btn-product:hover{
+    .product--elements-btn:hover{
         font-size: 14px;
     }
 
-    .img-btn-menu{
+    .menu-btn__img{
         width:18px;
         height:18px;
     }
     
-    .btn-category{
+    .category--elements-btn{
         padding: 16px;
         margin: 6px;
         font-size: 14px;
         line-height: 14px;
     }
     
-    .btn-product{
+    .product--elements-btn{
         padding: 11px 26px;
         margin: 8px;
         font-size: 14px;
     }
 
-    .product-btns{
+    .orders-data__product{
         margin-top: 70px;
     }
     
-    .product{
+    .orders-summary__elements--header{
         margin-top: 16px;
         font-size: 18px;
     }
     
-    .variant{
+    .orders-summary__elements--body{
         margin-top: 16px;
         font-size: 18px;
     }
     
-    .element{
+    .products-detail{
         padding: 24px;
     }
     
-    .name{
+    .products-detail__name{
         font-size: 16px;
     }
     
-    .price{
+    .products-detail__price{
         font-size: 16px;
     }
     
@@ -323,59 +342,59 @@
 
 /* Medium devices (tablets, less than 992px) */
 @media (max-width: 991.98px) { 
-    .first-part{
+    .orders-data{
         padding: 55px 15px;
     }
     
-    .btn-menu{
+    .orders-summary__menu{
         padding: 0px 20px;
     }
 
-    .btn-product:hover{
+    .product--elements-btn:hover{
         font-size: 12px;
     }
 
-    .img-btn-menu{
+    .menu-btn__img{
         width:16px;
         height:16px;
     }
     
-    .btn-category{
+    .category--elements-btn{
         padding: 14px;
         margin: 4px;
         font-size: 12px;
         line-height: 12px;
     }
     
-    .btn-product{
+    .product--elements-btn{
         padding: 9px 24px;
         margin: 8px;
         font-size: 14px;
     }
 
-    .product-btns{
+    .orders-data__product{
         margin-top: 55px;
     }
     
-    .product{
+    .orders-summary__elements--header{
         margin-top: 14px;
         font-size: 16px;
     }
     
-    .variant{
+    .orders-summary__elements--body{
         margin-top: 14px;
         font-size: 16px;
     }
     
-    .element{
+    .products-detail{
         padding: 22px;
     }
     
-    .name{
+    .products-detail__name{
         font-size: 14px;
     }
     
-    .price{
+    .products-detail__price{
         font-size: 14px;
     }
     

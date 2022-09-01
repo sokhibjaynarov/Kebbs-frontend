@@ -1,81 +1,83 @@
-<link rel="stylesheet" type="text/css" href="addOrder2.css" />
-<div class="add-orders">
-    <div class="first-part">
-        <div>
-            <div class="payment-screen">
-                Экран оплаты
-            </div>
-            <div>
-                <div class="form">
-                    <div class="input-form-text">
-                        Сумма заказа:
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="addOrder2.css" />
+    <title>Document</title>
+</head>
+<body>
+    <div class="orders">
+        <div class="orders-data first-part">
+            <div class="orders-data__form">
+                <div class="orders-data__form--name payment-screen">
+                    Экран оплаты
+                </div>
+                <div class="orders-data__form--container">
+                    <div class="form-container__element form">
+                        <div class="form-container__element--text input-form-text">
+                            Сумма заказа:
+                        </div>
+                        <input class="form-container__element--input input-form" type="text"/>
                     </div>
-                    <input class="input-form" type="text"/>
-                </div>
-                <div class="form">
-                    <div class="input-form-text">
-                        Получено:
+                    <div class="form-container__element form">
+                        <div class="form-container__element--text input-form-text">
+                            Получено:
+                        </div>
+                        <input class="form-container__element--input input-form" type="text"/>
                     </div>
-                    <input class="input-form" type="text"/>
-                </div>
-                <div class="form">
-                    <div class="input-form-text">
-                        Сдача
+                    <div class="form-container__element form">
+                        <div class="form-container__element--text input-form-text">
+                            Сдача
+                        </div>
+                        <input class="form-container__element--input input-form" type="text"/>
                     </div>
-                    <input class="input-form" type="text"/>
                 </div>
-            </div>
-            <div>
-                <div class="price-btns">
-                    <button class="btn-price">+50</button>
-                    <div class="btn-price-space"></div>
-                    <button class="btn-price">+100</button>
-                    <div class="btn-price-space"></div>
-                    <button class="btn-price">+500</button>
+                <div class="orders-data__form--btn">
+                    <div class="form-btn__container price-btns">
+                        <button class="btn-container__price-btn btn-price">+50</button>
+                        <button class="btn-container__price-btn btn-price">+100</button>
+                        <button class="btn-container__price-btn btn-price">+500</button>
+                    </div>
+                    <div class="form-btn__container price-btns">
+                        <button class="btn-container__price-btn btn-price">+1000</button>
+                        <button class="btn-container__price-btn btn-price">+5000</button>
+                        <button class="btn-container__price-btn btn-price">Расчет</button>
+                    </div>
                 </div>
-                <div class="price-btns">
-                    <button class="btn-price">+1000</button>
-                    <div class="btn-price-space"></div>
-                    <button class="btn-price">+5000</button>
-                    <div class="btn-price-space"></div>
-                    <button class="btn-price">Расчет</button>
-                </div>
-            </div>
-            <div>
-                <button class="btn-sum-price">
+                <button class="orders-data__form--sum-btn btn-sum-price">
                     1160 Р
                 </button>
             </div>
+            <button class="orders-data__delete-btn btn-delete-price">X</button>
         </div>
-        <div>
-            <button class="btn-delete-price">X</button>
+        <div class="orders-summary second-part">
+            <div class="orders-summary__menu btn-menu">
+                <button class="btn-helpers">
+                    <img class="menu-btn__img" src="../images/refresh.svg"/>
+                </button>
+                <button class="btn-helpers">
+                    <img class="menu-btn__img" src="../images/dots.svg"/>
+                </button>
+                <button class="btn-helpers">
+                    <img class="menu-btn__img" src="../images/close.svg"/>
+                </button>
+            </div>
+            <div class="product">
+                <div class="product-name">
+                    Пицца Портофино, 25С
+                </div>
+                <div style="display: flex; width: 100%; justify-content: space-between;">
+                    <div class="product-info">580</div>
+                    <div class="product-info">x2</div>
+                    <div class="product-info">1160 P</div>
+                </div>
+            </div>
+            <div class="sold-btn-container">
+                <button class="add-btn">Добавить заказ</button>
+                <button class="btn-sum-all">1160</button>
+            </div>
         </div>
     </div>
-    <div class="second-part">
-        <div class="btn-menu">
-            <button class="btn-helpers">
-                <img src="../images/refresh.svg"/>
-            </button>
-            <button class="btn-helpers">
-                <img src="../images/dots.svg"/>
-            </button>
-            <button class="btn-helpers">
-                <img src="../images/close.svg"/>
-            </button>
-        </div>
-        <div class="product">
-            <div class="product-name">
-                Пицца Портофино, 25С
-            </div>
-            <div style="display: flex; width: 100%; justify-content: space-between;">
-                <div class="product-info">580</div>
-                <div class="product-info">x2</div>
-                <div class="product-info">1160 P</div>
-            </div>
-        </div>
-        <div class="sold-btn-container">
-            <button class="add-btn">Добавить заказ</button>
-            <button class="btn-sum-all">1160</button>
-        </div>
-    </div>
-</div>
+</body> 

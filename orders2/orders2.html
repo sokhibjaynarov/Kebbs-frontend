@@ -1,143 +1,160 @@
-<link rel="stylesheet" type="text/css" href="orders2.css" />
-<div class="orders">
-    <div class="first-part">
-        <div class="order-header-text">
-            Список заказов
-        </div>
-        <div>
-            <table class="orders-table">
-                <tr class="header">
-                    <th class="header-element-num">№</th>
-                    <th class="header-element">Gl №</th>
-                    <th class="header-element">Время</th>
-                    <th class="header-element">Статус</th>
-                    <th class="header-element">Тип</th>
-                    <th class="header-element">Источник</th>
-                    <th class="header-element">Инфо</th>
-                </tr>
-                <tr class="body">
-                    <td class="body-element-num">001</td>
-                    <td class="body-element">89913243</td>
-                    <td class="body-element">10:52</td>
-                    <td class="body-element">Готовится</td>
-                    <td class="body-element">Зал</td>
-                    <td class="body-element">Касса</td>
-                    <td class="body-element">
-                        <img class="img-body-element" src="../images/time.svg" alt="time"/>
-                        <img class="img-body-element" src="../images/message.svg" alt="message"/>
-                    </td>
-                </tr>
-                <tr class="body">
-                    <td class="body-element-num">001</td>
-                    <td class="body-element">89913243</td>
-                    <td class="body-element">10:52</td>
-                    <td class="body-element">Готовится</td>
-                    <td class="body-element">Зал</td>
-                    <td class="body-element">Касса</td>
-                    <td class="body-element">
-                        <img class="img-body-element" src="../images/time.svg" alt="time"/>
-                        <img class="img-body-element" src="../images/message.svg" alt="message"/>
-                    </td>
-                </tr>
-                <tr class="body">
-                    <td class="body-element-num">001</td>
-                    <td class="body-element">89913243</td>
-                    <td class="body-element">10:52</td>
-                    <td class="body-element">Готовится</td>
-                    <td class="body-element">Зал</td>
-                    <td class="body-element">Касса</td>
-                    <td class="body-element">
-                        <img class="img-body-element" src="../images/time.svg" alt="time"/>
-                        <img class="img-body-element" src="../images/message.svg" alt="message"/>
-                    </td>
-                </tr>
-                <tr class="body">
-                    <td class="body-element-num">001</td>
-                    <td class="body-element">89913243</td>
-                    <td class="body-element">10:52</td>
-                    <td class="body-element">Готовится</td>
-                    <td class="body-element">Зал</td>
-                    <td class="body-element">Касса</td>
-                    <td class="body-element">
-                        <img class="img-body-element" src="../images/time.svg" alt="time"/>
-                        <img class="img-body-element" src="../images/message.svg" alt="message"/>
-                    </td>
-                </tr>
-            </table>
-        </div>
-        <div class="pagination">
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./orders2.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="orders">
+        <div class="orders-data orders-column">
+            <h1 class="order-data__header">
+                Список заказов
+            </h1>
             <div>
-                <button class="btn-page"><</button>
-                <button class="btn-page">></button>
+                <table class="order-data__table">
+                    <tbody>
+                        <tr class="data-table__header">
+                            <th class="data-table__element data-table__element--num">№</th>
+                            <th class="data-table__element header-element">Gl №</th>
+                            <th class="data-table__element header-element">Время</th>
+                            <th class="data-table__element header-element">Статус</th>
+                            <th class="data-table__element header-element">Тип</th>
+                            <th class="data-table__element header-element">Источник</th>
+                            <th class="data-table__element header-element">Инфо</th>
+                        </tr>
+                        <tr class="data-table__body">
+                            <td class="data-table-body__element data-table-body__element--num">001</td>
+                            <td class="data-table-body__element body-element">89913243</td>
+                            <td class="data-table-body__element body-element">10:52</td>
+                            <td class="data-table-body__element body-element">Готовится</td>
+                            <td class="data-table-body__element body-element">Зал</td>
+                            <td class="data-table-body__element body-element">Касса</td>
+                            <td class="data-table-body__element body-element">
+                                <img class="data-table-body__element data-table-body__element--img" src="../images/time.svg" alt="time"/>
+                                <img class="data-table-body__element data-table-body__element--img" src="../images/message.svg" alt="message"/>
+                            </td>
+                        </tr>
+                        <tr class="data-table__body">
+                            <td class="data-table-body__element data-table-body__element--num">001</td>
+                            <td class="data-table-body__element body-element">89913243</td>
+                            <td class="data-table-body__element body-element">10:52</td>
+                            <td class="data-table-body__element body-element">Готовится</td>
+                            <td class="data-table-body__element body-element">Зал</td>
+                            <td class="data-table-body__element body-element">Касса</td>
+                            <td class="data-table-body__element body-element">
+                                <img class="data-table-body__element data-table-body__element--img" src="../images/time.svg" alt="time"/>
+                                <img class="data-table-body__element data-table-body__element--img" src="../images/message.svg" alt="message"/>
+                            </td>
+                        </tr>
+                        <tr class="data-table__body">
+                            <td class="data-table-body__element data-table-body__element--num">001</td>
+                            <td class="data-table-body__element body-element">89913243</td>
+                            <td class="data-table-body__element body-element">10:52</td>
+                            <td class="data-table-body__element body-element">Готовится</td>
+                            <td class="data-table-body__element body-element">Зал</td>
+                            <td class="data-table-body__element body-element">Касса</td>
+                            <td class="data-table-body__element body-element">
+                                <img class="data-table-body__element data-table-body__element--img" src="../images/time.svg" alt="time"/>
+                                <img class="data-table-body__element data-table-body__element--img" src="../images/message.svg" alt="message"/>
+                            </td>
+                        </tr>
+                        <tr class="data-table__body">
+                            <td class="data-table-body__element data-table-body__element--num">001</td>
+                            <td class="data-table-body__element body-element">89913243</td>
+                            <td class="data-table-body__element body-element">10:52</td>
+                            <td class="data-table-body__element body-element">Готовится</td>
+                            <td class="data-table-body__element body-element">Зал</td>
+                            <td class="data-table-body__element body-element">Касса</td>
+                            <td class="data-table-body__element body-element">
+                                <img class="data-table-body__element data-table-body__element--img" src="../images/time.svg" alt="time"/>
+                                <img class="data-table-body__element data-table-body__element--img" src="../images/message.svg" alt="message"/>
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
             </div>
-            <div class="page-index">10/49</div>
-        </div>
-    </div>
-    <div class="second-part">
-        <div class="time">
-            15:11
-        </div>
-        <div class="second-part-elements">
-            <div class="btn-order-tray">
-                <button class="btn-tray">
-                    <img class="btn-tray-image" src="../images/outtray.svg" />
-                </button>
-                <div class="space-buttons"></div>
-                <button class="btn-tray">
-                    <img class="btn-tray-image" src="../images/intray.svg" />
-                </button>
-            </div>
-            <div>
-                <div class="order-cash-text">Общая информация</div>
-                <div class="orders-info">
-                    <div class="orders-table-element">
-                        <div class="order-cash-header">Сумма всего</div>
-                        <div class="order-cash-header">1718</div>
-                    </div>
-                    <div class="orders-table-element">
-                        <div class="order-cash-header">На начало смены</div>
-                        <div class="order-cash-header">1090</div>
-                    </div>
-                    <div class="orders-table-element">
-                        <div class="order-cash-body">Наличными</div>
-                        <div class="order-cash-body">580</div>
-                    </div>
-                    <div class="orders-table-element">
-                        <div class="order-cash-body">Безналичным</div>
-                        <div class="order-cash-body">48</div>
-                    </div>
-                </div>
-            </div>
-            <div class="keyboard">
-                <div>
-                    <button class="btn-keyboard">1</button>
-                    <button class="btn-keyboard">2</button>
-                    <button class="btn-keyboard">3</button>
-                </div>
-                <div>
-                    <button class="btn-keyboard">4</button>
-                    <button class="btn-keyboard">5</button>
-                    <button class="btn-keyboard">6</button>
-                </div>
-                <div>
-                    <button class="btn-keyboard">7</button>
-                    <button class="btn-keyboard">8</button>
-                    <button class="btn-keyboard">9</button>
-                </div>
-                <div>
-                    <button class="btn-keyboard">
-                        <img src="../images/delete.svg" alt="delete" />
+            <div class="pagination">
+                <div class="pagination-block">
+                    <button class="pagination-prev pagination-btn"> 
+                        <img src="../images/prev-page.svg" alt="prev-page"> 
                     </button>
-                    <button class="btn-keyboard">0</button>
-                    <button class="btn-keyboard">OK</button>
+                    <button class="pagination-next pagination-btn"> 
+                        <img src="../images/next-page.svg" alt="next-page"> 
+                    </button>
                 </div>
+                <div class="pagination-index">10/49</div>
             </div>
-            <div class="orders-btn">
-                <input class="input">
-                <button class="btn-orders-btn">
-                    <img src="../images/list.svg" alt="list" />
-                </button>
+        </div>
+        <div class="orders-info orders-column">
+            <div class="time">
+                15:11
+            </div>
+            <div class="orders-info__elements">
+                <div class="orders-info__elements--buttons">
+                    <button class="element__buttons--btn">
+                        <img class="element__buttons--img btn-tray-image" src="../images/outtray.svg" />
+                    </button>
+                    <div class="element__buttons--space"></div>
+                    <button class="element__buttons--btn">
+                        <img class="element__buttons--img btn-tray-image" src="../images/intray.svg" />
+                    </button>
+                </div>
+                <div class="orders-info__elements--summary">
+                    <div class="summary-header">Общая информация</div>
+                    <div class="summary-info">
+                        <div class="summary-info__element">
+                            <div class="summary-info__element--text">Сумма всего</div>
+                            <div class="summary-info__element--text">1718</div>
+                        </div>
+                        <div class="summary-info__element">
+                            <div class="summary-info__element--text">На начало смены</div>
+                            <div class="summary-info__element--text">1090</div>
+                        </div>
+                        <div class="summary-info__element">
+                            <div class="summary-info__element--text">Наличными</div>
+                            <div class="summary-info__element--text">580</div>
+                        </div>
+                        <div class="summary-info__element">
+                            <div class="summary-info__element--text">Безналичным</div>
+                            <div class="summary-info__element--text">48</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="orders-info__elements--keyboard">
+                    <div class="keyboard-elements">
+                        <button class="keyboard-elements__btn">1</button>
+                        <button class="keyboard-elements__btn">2</button>
+                        <button class="keyboard-elements__btn">3</button>
+                    </div>
+                    <div>
+                        <button class="keyboard-elements__btn">4</button>
+                        <button class="keyboard-elements__btn">5</button>
+                        <button class="keyboard-elements__btn">6</button>
+                    </div>
+                    <div>
+                        <button class="keyboard-elements__btn">7</button>
+                        <button class="keyboard-elements__btn">8</button>
+                        <button class="keyboard-elements__btn">9</button>
+                    </div>
+                    <div>
+                        <button class="keyboard-elements__btn">
+                            <img src="../images/delete.svg" alt="delete" />
+                        </button>
+                        <button class="keyboard-elements__btn">0</button>
+                        <button class="keyboard-elements__btn">OK</button>
+                    </div>
+                </div>
+                <div class="orders-info__elements--submit">
+                    <input class="submit-input">
+                    <button class="submit-btn">
+                        <img src="../images/list.svg" alt="list" />
+                    </button>
+                </div>
             </div>
         </div>
     </div>
-</div>
+</body>
+</html>
